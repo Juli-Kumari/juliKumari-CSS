@@ -72,3 +72,20 @@ text-align: right;
 .nav-bar .link-active{
     font-weight: bold;
 }
+
+/* header */
+.header{
+    padding: 1rem;
+}
+.header .header-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.header .header-heading{
+    padding: 1rem;
+    color: gray;
+}
+.header .header-heading .header-span{
+    color: var(--primary-color);
+}
