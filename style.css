@@ -3,11 +3,12 @@
 /* decleare variable */
 :root{
     --primary-color:#F9A826;
-    --header-color : gray;
+    --gray-color : gray;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -85,7 +86,8 @@ text-align: right;
 }
 .header .header-heading{
     padding: 1rem;
-    color: var(--header-color);
+    color: var(--gray-color );
+    text-align: center;
 }
 .header .header-heading .header-span{
     color: var(--primary-color);
@@ -99,5 +101,16 @@ text-align: right;
     text-align: center;
 }
 .ow{
-    background-color: var(--header-color);
+    background-color: var(--gray-color);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+}
+.footer .link{
+    color: white;
 }
