@@ -39,3 +39,36 @@ hr{
     /* border-radius: 0.5rem; */
     border-radius: 0.5rem;
 }
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
+}
+
+/* navigation */
+.list-nav-inline{
+    display: inline;
+}
+.nav-bar{ 
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.nav-unorder-list{
+text-align: right;
+}
+
+.nav-bar .link{
+    color: white;
+}
+.nav-my-brand{
+    font-weight: bold;
+}
+.nav-bar .link-active{
+    font-weight: bold;
+}

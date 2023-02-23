@@ -37,40 +37,41 @@
 
     <h1>@lists</h1>
     <h2>@unorder lists</h2>
-    <ul>
+    <p>Remove the bullets</p>
+    <ul class="list-non-bullet">
         <li>unorder list 1</li>
         <li>unorder list 2</li>
         <li>unorder list 3</li>
     </ul>
 
     <h2>@inline lists</h2>
-    <ul>
-        <li>inline list 1</li>
-        <li>inline list 2</li>
-        <li>inline list 3</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">inlineList1</li>
+        <li class="list-item-inline">inlineList2</li>
+        <li class="list-item-inline">inlineList3</li>
     </ul>
 
     <h2>@reverse order lists</h2>
-    <ol>
-        <li>reverse order list 1</li>
-        <li>reverse order list 2</li>
-        <li>reverse order list 3</li>
+    <ol reversed>
+        <li>reverse order list one</li>
+        <li>reverse order list two</li>
+        <li>reverse order list three</li>
     </ol>
 
     <hr>
 
     <h1>@navigation</h1>
-    <h3>@mybrand</h3>
-    <nav>
-       <ul>
-        <li>
-            <a href="/">home</a>
+    <nav class="nav-bar">
+       <h3 class="nav-my-brand">mybrand</h3>
+       <ul class="nav-unorder-list">
+        <li class="list-nav-inline ">
+            <a class="link link-active" href="/">home</a>
         </li>
-        <li>
-            <a href="/">product</a>
+        <li class="list-nav-inline">
+            <a class="link" href="/">product</a>
         </li>
-        <li>
-            <a href="/">about</a>
+        <li class="list-nav-inline">
+            <a class="link" href="/">about</a>
         </li>
        </ul>
     </nav>
