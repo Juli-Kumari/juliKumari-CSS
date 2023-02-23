@@ -3,6 +3,7 @@
 /* decleare variable */
 :root{
     --primary-color:#F9A826;
+    --header-color : gray;
 }
 
 body{
@@ -84,8 +85,19 @@ text-align: right;
 }
 .header .header-heading{
     padding: 1rem;
-    color: gray;
+    color: var(--header-color);
 }
 .header .header-heading .header-span{
     color: var(--primary-color);
+}
+
+/* section */
+#section{
+ padding: 2rem;
+}
+#section h3{
+    text-align: center;
+}
+.ow{
+    background-color: var(--header-color);
 }
